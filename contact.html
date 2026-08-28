@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Kronos Technologies</title>
+
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f7f8fa;
+color:#333;
+}
+
+header{
+background:#071A52;
+padding:20px 8%;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.contact-banner{
+height:350px;
+background:url("images/contact.jpg");
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.45);
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+color:white;
+}
+
+.overlay h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.contact-container{
+
+padding:80px 10%;
+
+display:grid;
+grid-template-columns:1fr 2fr;
+
+gap:40px;
+}
+
+.contact-info{
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.contact-info h2{
+
+margin-bottom:30px;
+
+color:#071A52;
+}
+
+.contact-item{
+
+display:flex;
+
+align-items:flex-start;
+
+gap:15px;
+
+margin-bottom:25px;
+}
+
+.contact-item i{
+
+font-size:22px;
+
+color:#2563EB;
+
+margin-top:5px;
+}
+
+.contact-form{
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.contact-form h2{
+
+margin-bottom:25px;
+
+color:#071A52;
+}
+
+.row{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:15px;
+
+margin-bottom:15px;
+}
+
+input,
+textarea,
+select{
+
+width:100%;
+
+padding:14px;
+
+border:1px solid #ddd;
+
+border-radius:8px;
+
+font-size:15px;
+}
+
+textarea{
+resize:none;
+}
+
+button{
+
+background:#2563EB;
+
+color:white;
+
+padding:14px 30px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:15px;
+}
+
+button:hover{
+
+background:#0D47C9;
+}
+
+footer{
+
+background:#071A52;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+}
+
+.row{
+
+grid-template-columns:1fr;
+}
+
+.overlay h1{
+
+font-size:40px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+KRONOS TECHNOLOGIES
+
+</div>
+
+<div>
+
+<a href="index.html">Accueil</a>
+contact.htmlContact</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="contact-banner">
+
+<div class="overlay">
+
+<h1>Contact</h1>
+
+<p>Accueil > Contact</p>
+
+</div>
+
+</section>
+
+<section class="contact-container">
+
+<div class="contact-info">
+
+<h2>Nos coordonnées</h2>
+
+<div class="contact-item">
+<i class="fas fa-phone"></i>
+
+<div>
+<strong>Téléphone</strong>
+<p>+226 XX XX XX XX</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-envelope"></i>
+
+<div>
+<strong>Email</strong>
+<p>francoissome006@gmail.com</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-location-dot"></i>
+
+<div>
+<strong>Adresse</strong>
+<p>Ouagadougou, Burkina Faso</p>
+</div>
+</div>
+
+</div>
+
+<div class="contact-form">
+
+<h2>Prêt à commencer ?</h2>
+
+https://formsubmit.co/francoissome006@gmail.com
+
+<input type="hidden"
+name="_subject"
+value="Nouvelle demande depuis Kronos Technologies">
+
+<input type="hidden"
+name="_captcha"
+value="false">
+
+<div class="row">
+
+<input
+type="text"
+name="prenom"
+placeholder="Prénom"
+required>
+
+<input
+type="text"
+name="nom"
+placeholder="Nom"
+required>
+
+</div>
+
+<div class="row">
+
+<input
+type="email"
+name="email"
+placeholder="Email"
+required>
+
+<input
+type="tel"
+name="telephone"
+placeholder="Téléphone">
+
+</div>
+
+<select name="service">
+
+<option>
+Choisir un service
+</option>
+
+<option>
+Licences Microsoft 365
+</option>
+
+<option>
+Support Informatique
+</option>
+
+<option>
+Migration Cloud
+</option>
+
+<option>
+Cybersécurité
+</option>
+
+<option>
+Formation
+</option>
+
+</select>
+
+<br><br>
+
+<textarea
+name="message"
+rows="6"
+placeholder="Votre message"
+required></textarea>
+
+<br><br>
+
+<button type="submit">
+
+Envoyer
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Kronos Technologies
+
+</p>
+
+<p>
+
+Licences Microsoft 365, support et solutions cloud pour les entreprises.
+
+</p>
+
+</footer>
+
+</body>
+</html>
