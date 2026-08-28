@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kronos Technologies</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{color:#222;line-height:1.6}
+html{scroll-behavior:smooth}
+header{position:fixed;top:0;width:100%;background:#071A52;color:#fff;z-index:1000}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 8%}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{height:100vh;background:linear-gradient(rgba(7,26,82,.8),rgba(7,26,82,.8)),url('images/hero.jpg') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+.hero h1{font-size:4rem}.hero p{max-width:700px;margin:20px auto;font-size:1.2rem}
+.btn{display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;margin:8px}
+.btn-primary{background:#2563eb;color:#fff}.btn-secondary{border:2px solid #fff;color:#fff}
+.section{padding:90px 8%}.title{text-align:center;color:#071A52;margin-bottom:40px;font-size:2.2rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.grid2 img,.gallery img{width:100%;border-radius:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{padding:25px;background:#fff;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.08);transition:.3s}.card:hover{transform:translateY(-8px)}
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}.price{border:1px solid #ddd;padding:25px;border-radius:12px;text-align:center}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+form input,form textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ccc;border-radius:8px}
+form button{background:#071A52;color:#fff;padding:12px 25px;border:none;border-radius:8px}
+footer{background:#071A52;color:#fff;text-align:center;padding:40px}.wa{position:fixed;right:20px;bottom:20px;background:#25D366;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;text-decoration:none}
+@media(max-width:768px){.grid2{grid-template-columns:1fr}nav .links{display:none}.hero h1{font-size:2.5rem}}
+</style>
+</head>
+<body>
+<header><nav><h2>KRONOS TECHNOLOGIES</h2><div class='links'><a href='#about'>À propos</a><a href='#services'>Services</a><a href='#licenses'>Licences</a><a href='#gallery'>Galerie</a><a href='#contact'>Contact</a></div></nav></header>
+<section class='hero'><div><h1>Kronos Technologies</h1><p>Licences Microsoft 365, support et solutions cloud pour les entreprises.</p><a class='btn btn-primary' href='#contact'>Demander un devis</a><a class='btn btn-secondary' href='#services'>Découvrir nos services</a></div></section>
+<section id='about' class='section'><h2 class='title'>À propos</h2><div class='grid2'><img src='images/equipe.jpg' alt='Equipe'><div><h3>Votre partenaire technologique</h3><p>Kronos Technologies accompagne les entreprises dans leur transformation digitale grâce aux solutions Microsoft 365, au cloud et à la cybersécurité.</p></div></div></section>
+<section id='services' class='section'><h2 class='title'>Nos Services</h2><div class='cards'><div class='card'>Licences Microsoft 365</div><div class='card'>Support Informatique</div><div class='card'>Migration Cloud</div><div class='card'>Cybersécurité</div><div class='card'>Formation</div><div class='card'>Conseil IT</div></div></section>
+<section id='licenses' class='section'><h2 class='title'>Licences Microsoft 365</h2><div class='pricing'><div class='price'>Business Basic</div><div class='price'>Business Standard</div><div class='price'>Business Premium</div><div class='price'>Microsoft Copilot</div></div></section>
+<section class='section'><h2 class='title'>Support 24/7</h2><div class='grid2'><img src='images/support.jpg'><div><p>Assistance proactive et réactive pour vos utilisateurs et vos services Microsoft 365.</p></div></div></section>
+<section class='section'><h2 class='title'>Cybersécurité</h2><div class='grid2'><div><p>Protégez vos données grâce aux solutions de sécurité Microsoft 365.</p></div><img src='images/security.jpg'></div></section>
+<section class='section'><h2 class='title'>Cloud & Infrastructure</h2><div class='grid2'><img src='images/cloud.jpg'><div><p>Modernisez votre environnement informatique avec des solutions cloud fiables.</p></div></div></section>
+<section id='gallery' class='section'><h2 class='title'>Galerie</h2><div class='gallery'><img src='images/gallery1.jpg'><img src='images/gallery2.jpg'><img src='images/gallery3.jpg'><img src='images/gallery4.jpg'><img src='images/gallery5.jpg'><img src='images/gallery6.jpg'></div></section>
+<section id='contact' class='section'><h2 class='title'>Demander un devis</h2><form><input placeholder='Nom'><input placeholder='Entreprise'><input placeholder='Email'><input placeholder='Téléphone'><textarea rows='5' placeholder='Décrivez votre besoin'></textarea><button>Envoyer</button></form></section>
+<footer><h3>Kronos Technologies</h3><p>Licences Microsoft 365, support et solutions cloud pour les entreprises.</p></footer>
+<a class='wa' href='https://wa.me/22600000000'><i class='fab fa-whatsapp'></i></a>
+</body></html>
